@@ -8,16 +8,19 @@ The main function of a browser is to present the web resource you choose, by req
 
 The browser's main components are:
 
-- The user interface: this includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
+- **The User Interface:** The user interface is referred to as a space where a user can have to interact with the browser, The user interface consists of various numbers of elements and buttons, such as address bar, next and back button, refresh, stop and bookmark option etc. which helps in making the user interaction with the browser more interactive.
 
-- The browser engine: provides the actions between the UI and the rendering engine.
+- **The Browser Engine:** The browser engine behaves like a bridge between the user interface and the rendering engine.
 
-- The rendering engine: responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.
+- **The Rendering Engine:** It’s the responsibility of the rendering engine to display the content which is requested by the end-user.
 
-- Networking: for network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.
+- **Networking:** This component of the browser is responsible for retrieving the URLs, with the help of internet protocols. It handles the area of internet communication and security.
 
-- UI backend: used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.
+- **Javascript Interpreter:** Javascript interpreter is solely responsible for interpreting and executing the javascript code. The final result which is received after the interpretation of the javascript code is then sent to the rendering engine.
 
-- JavaScript interpreter. Used to parse and execute JavaScript code.
+- **UI Backend:** UI backend is responsible for drawing various widgets like select box, input box, check box etc.
 
-- Data storage. This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+- **Data Persistence:** It acts as a database on the local drive of the user's computer. It helps in managing the user data like cache, cookies, bookmarks, preferences etc
+
+
+![Browser components](https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/PgPX6ZMyKSwF6kB8zIhB.png?auto=format&w=650)
