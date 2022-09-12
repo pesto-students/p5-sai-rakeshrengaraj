@@ -1,7 +1,7 @@
 // function createStack() {
 //     return {
 
-//         items: [], 
+//         items: [],
 //         push(item) {
 //             this.items.push(item);
 //         },
@@ -22,17 +22,17 @@
 
 // #########################
 
-function createStack(){
-	let items = [];
-  
-  return{
-  	push(element){
-    	return items.push(element)
+function createStack() {
+  let items = [];
+
+  return {
+    push(element) {
+      return items.push(element);
     },
-    pop(){
-    	return items.pop()
-    }
-  }
+    pop() {
+      return items.pop();
+    },
+  };
 }
 
 const stack = createStack();
@@ -40,3 +40,4 @@ stack.push(10);
 stack.push(5);
 stack.pop();
 stack.items;
+
