@@ -11,3 +11,4 @@ function hasDuplicates(arr){
 
 
 hasDuplicates([1,5,-1,4])
+
