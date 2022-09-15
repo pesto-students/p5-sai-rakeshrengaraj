@@ -7,10 +7,10 @@ function vowelCount(str){
   for (const char of str){
     let lowerChar = char.toLowerCase();
     if (isVowel(lowerChar)){
-      if (vowelMap.has(lowerChar)){
-        vowelMap.set(lowerChar, vowelMap.get(lowerChar) +1)
+      if (vowelMap.has(lowerChar)){   // Map "has" method to check whether the key char is present
+        vowelMap.set(lowerChar, vowelMap.get(lowerChar) +1)  // Map "get" method to check whether the value of the key char
       }else{
-        vowelMap.set(lowerChar,1)
+        vowelMap.set(lowerChar,1) // Map "set" method to add key value pair
       }
     }
   }
