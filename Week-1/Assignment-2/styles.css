@@ -1,0 +1,153 @@
+html,body{
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    display: flex;
+    height: 100%;
+}
+
+
+/* Left Section Styling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  li{
+    line-height: 72px;
+    height: 72px;
+  }
+
+
+
+
+/* Header Section Styling */
+.header-section{
+    display: flex;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+    background: #454545;
+    color: white;
+}
+
+.header-section article{
+    padding: 10px;
+    margin: 10px;
+}
+
+.article-header-content p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.article-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-header-control{
+    margin-top: auto;
+}
+
+.article-header-control a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.article-header-control a:hover{
+    background: black;
+    padding: 10px;
+}
+
+
+
+/* Table Content Section Styling */
+.table-content-section{
+    padding: 15px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed ;
+  }
+  
+  td {
+    text-align: left;
+    padding: 8px;
+    width:25%
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+
+  td > span {
+    padding: 5px;
+    border: 1px solid black;
+    color: blue;
+  }
+
+
+/* Footer Styling */
+.footer-section{
+    display: flex;
+    background: #43689b;
+    color: white;
+}
+
+.footer-section img {
+    width: 100px;
+}
+
+.footer-section article{
+    padding: 10px;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-text-content, .footer-controls{
+    align-self: center;
+}
+
+.footer-text-content {
+    font-size: 0.8em;
+}
+
+
+.footer-controls a{
+    margin-left: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-controls a:hover{
+    padding: 5px;
+    background: black;
+}
+
+
+
+
