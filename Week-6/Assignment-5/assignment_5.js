@@ -1,12 +1,12 @@
 
 
 
-function pairDiff(arr, target){
-    let sum = 0;
-    for(let i = arr.length-1; i >=0 ; i--){
-        for(let j=i-1; j>=0; j--){
+function pairDiff(numArr, target){
+    let arr = numArr.sort((a, b) => a - b);
+    for(let i = 0; i <= arr.length ; i++){
+        for(let j=i+1; j<=arr.length; j++){
             sum = arr[i] - arr[j]
-            if (sum === target){
+            if (Math.abs(sum) === target){
                 return 1
             }
         }
