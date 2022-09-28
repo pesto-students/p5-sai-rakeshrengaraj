@@ -6,6 +6,10 @@
 // If all the elements in an array are negartive return 0
 
 
+// Time Complexity:- O(n)
+// Space Complexity:- O(1)
+
+
 const kadaneAlgo = function(arr){
     let curr_val = 0; 
     let max_val = 0;
