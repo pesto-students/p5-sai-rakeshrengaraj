@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+html,
+body {
+  padding: 4px;
+  margin: 4px;
+  font-family: "Roboto", sans-serif;
+  background-color: #fdeed5;
+  max-width: 100%;
+}
+
+header,
+footer {
+  text-align: center;
+  background: #565656;
+  padding: 8px;
+  margin: 8px;
+  color: white;
+}
+
+section h1,
+section p {
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+.nav {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav li > a {
+  text-decoration: none;
+  color: #565656;
+  padding: 4px;
+}
+
+.nav li > a:hover {
+  color: black;
+  padding: 4px;
+  text-decoration: underline #565656;
+}
+
+article,
+figcaption {
+  padding: 8px;
+}
+
+.form_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  height: 32vh;
+  margin: 8px;
+}
+
+form {
+  max-width: 92vw;
+}
+
+form .form_input {
+  display: flex;
+  margin: 8px;
+}
+
+label {
+  width: 8rem;
+  padding-right: 0.8rem;
+}
+
+.form_input input {
+  flex: 1 1 auto;
+  border: 1px solid #565656;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.form_button input {
+  margin-left: 8.8rem;
+  width: 8rem;
+  height: 2.4rem;
+  background: #565656;
+  color: white;
+}
+
+.form_button input:hover {
+  background-color: #fdeed5;
+  color: #565656;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .form_button input {
+    margin-left: 4px;
+  }
+  figure > img {
+    max-width: 100%;
+  }
+
+  label {
+    display: none;
+  }
+}
+
