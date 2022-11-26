@@ -7,9 +7,13 @@
 .containerHeader,.containerInput{
     display: flex;
     flex-direction: column;
-    padding: 2.4rem;
+    padding: 1.2rem;
 }
 
 .urlContainer p {
     font-size: 1.2rem;
+}
+
+.containerHeader h1 , .containerHeader p{
+    padding: 1rem;
 }

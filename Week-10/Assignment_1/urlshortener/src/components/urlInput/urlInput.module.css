@@ -1,21 +1,22 @@
 .submitUrl{
-    background-color: #3d5cc6;
+    background-color: royalblue;
     color: white;
-    padding: 0.4rem;
+    padding: 1rem;
     font-size: 1rem;
-    flex-grow: 5;
 }
 
 .urlInput{
     display: flex;
     margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .urlInput input[type='text']{
     padding: 1rem;
+    padding: 1rem;
     font-size: 1rem;
-    width: 80%;
-    flex-grow: 1;
+    width: 70%;
 }
 
 

@@ -1,34 +1,50 @@
 /* Footer Styling */
-.footerBar{
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 0.8rem;
-    font-size: 0.8rem;
+.footerBar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem;
+  font-size: 0.8rem;
 }
 
-.footerBar ul{
-    padding-left: 0;
-    list-style-type: none;
+.footerBar ul {
+  padding-left: 0;
+  list-style-type: none;
 }
 
-.footerBar h3{
-    margin-top: 0;
+.footerBar h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: royalblue;
 }
 
-
-.footerBar ul li{
-    margin: 1rem 0;
-    font-size: 1rem;
+.footerBar ul li {
+  margin: 1rem 0;
+  font-size: 1rem;
 }
 
-.footerBar ul li:hover{
-    margin: 1rem 0;
-    color:  #dca36f;
+.footerBar ul li:hover {
+  margin: 1rem 0;
+  color: #dca36f;
 }
 
-.footer_features,.footer_resources,.footer_company{
-    padding: 0.4rem 0.4rem 0 0.4rem;
+.footer_features,
+.footer_resources,
+.footer_company {
+  padding: 0.4rem 0.4rem 0 0.4rem;
 }
 /* Footer Styling */
+
+@media screen and (max-width: 769px) {
+  .footerBar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_features,
+  .footer_resources,
+  .footer_company {
+    text-align: center;
+  }
+}

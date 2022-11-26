@@ -1,6 +1,6 @@
 .urlOutput {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -8,24 +8,23 @@
   background-color: black;
   padding: 0.8rem;
   font-size: 1rem;
-  flex-grow: 15;
   color: white;
 }
 
 .notCopied {
-  background-color: #3d5cc6;
+  background-color: royalblue;
   color: white;
   padding: 0.8rem;
   font-size: 1rem;
-  flex-grow: 1;
+  border-width: 0;
 }
 
 .copyOutput {
   background-color: white;
-  color: #3d5cc6;
+  color: royalblue;
   padding: 0.8rem;
   font-size: 1rem;
-  flex-grow: 1;
+  border-width: 0;
 }
 
 .notCopied:hover{
