@@ -1,0 +1,15 @@
+.urlContainer{
+    background-color: #6fa8dc;
+    width: 100%;
+    height: 60vh;
+}
+
+.containerHeader,.containerInput{
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem;
+}
+
+.urlContainer p {
+    font-size: 1.2rem;
+}

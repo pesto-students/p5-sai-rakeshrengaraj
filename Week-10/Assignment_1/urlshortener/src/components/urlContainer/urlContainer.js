@@ -1,25 +1,30 @@
-import React from "react";
+// import React, { useState } from "react";
+import styles from "./urlContainer.module.css"
+import LoadingContent from "../displayLoading/loading";
+import UrlInputValue from "../urlInput/urlInput";
+import UrlResult from "../urlOutput/urlOutput";
 
-function UrlContainer() {
+function UrlContainer({ getInputValue, shortUrl, loading, error }) {
+
   return (
-    <main className="urlContainer">
-      <div className="containerHeader">
+    <main className={styles.urlContainer}>
+      <div className={styles.containerHeader}>
         <h1>More than just shorter Links</h1>
         <p>
           Build your brand's recognition and get detailed insights on how your
           links are performing
         </p>
       </div>
-      <div className="containerInput">
-        <div className="urlInput">
-          <input type="text" placeholder="Enter URL" value="value" />
-        </div>
-        <div className="urlOutput">
-            <div className="displayOutput">
-                 Output goes Here
-            </div>
-          <button className="copyOutput">Copy</button>
-        </div>
+      <div className={styles.containerInput}>
+
+        <UrlInputValue getInputValue={getInputValue} />
+
+        {(loading || error) ? (
+          <LoadingContent loading={loading} error={error}/>
+        ) : shortUrl.length ? (
+          <UrlResult shortUrl={shortUrl} error={error}/>
+        ) : null}
+
       </div>
     </main>
   );

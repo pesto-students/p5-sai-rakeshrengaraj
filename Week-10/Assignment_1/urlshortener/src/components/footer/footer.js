@@ -1,9 +1,9 @@
-import React from "react";
+import styles from "./footer.module.css";
 
 function Footer() {
   return (
-    <footer className="footerBar">
-      <div className="footer-features">
+    <footer className={styles.footerBar}>
+      <div className={styles.footer_features}>
         <h3>Features</h3>
         <ul>
           <li>Link Shortning</li>
@@ -11,7 +11,7 @@ function Footer() {
           <li>Analytics</li>
         </ul>
       </div>
-      <div className="footer-resources">
+      <div className={styles.footer_resources}>
         <h3>Resources</h3>
         <ul>
           <li>Blog</li>
@@ -19,7 +19,7 @@ function Footer() {
           <li>Support</li>
         </ul>
       </div>
-      <div className="footer-company">
+      <div className={styles.footer_company}>
         <h3>Company</h3>
 
         <ul>

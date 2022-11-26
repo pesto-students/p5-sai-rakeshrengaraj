@@ -1,0 +1,34 @@
+/* Footer Styling */
+.footerBar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.footerBar ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footerBar h3{
+    margin-top: 0;
+}
+
+
+.footerBar ul li{
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.footerBar ul li:hover{
+    margin: 1rem 0;
+    color:  #dca36f;
+}
+
+.footer_features,.footer_resources,.footer_company{
+    padding: 0.4rem 0.4rem 0 0.4rem;
+}
+/* Footer Styling */
