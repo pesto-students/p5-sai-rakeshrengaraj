@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.app{
+  margin: 80px auto;
+}
+
+
+.step_count{
+  padding: 8px;
+  margin: 8px;
+}
+
+.step_calculations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+button{
+  padding: 16px;
+  margin: 8px;
+  width: 40%;
+  font-size: 1.2rem;
+  background: rgb(183, 180, 180);
+  font-weight: bolder;
+}
+
+button:hover{
+  background: purple;
+  color: white;
+}
