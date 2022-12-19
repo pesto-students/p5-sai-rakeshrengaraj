@@ -1,0 +1,32 @@
+.urlOutput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayOutput {
+  background-color: black;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.notCopied {
+  background-color: royalblue;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-width: 0;
+}
+
+.copyOutput {
+  background-color: white;
+  color: royalblue;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-width: 0;
+}
+
+.notCopied:hover{
+    background-color: #162f46;
+}

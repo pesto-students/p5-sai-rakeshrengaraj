@@ -1,0 +1,19 @@
+.urlContainer{
+    background-color: #6fa8dc;
+    width: 100%;
+    height: 60vh;
+}
+
+.containerHeader,.containerInput{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+.urlContainer p {
+    font-size: 1.2rem;
+}
+
+.containerHeader h1 , .containerHeader p{
+    padding: 1rem;
+}

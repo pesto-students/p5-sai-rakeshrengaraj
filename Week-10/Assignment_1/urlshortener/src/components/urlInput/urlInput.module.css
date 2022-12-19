@@ -1,0 +1,25 @@
+.submitUrl{
+    background-color: royalblue;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.urlInput{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.urlInput input[type='text']{
+    padding: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 70%;
+}
+
+
+.submitUrl:hover{
+    background-color: #162f46;
+}
