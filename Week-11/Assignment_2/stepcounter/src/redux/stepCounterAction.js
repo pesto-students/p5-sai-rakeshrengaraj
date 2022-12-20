@@ -1,0 +1,3 @@
+export const INCREMENT_STEP = 'INCREMENT_STEP';
+export const DECREMENT_STEP = 'DECREMENT_STEP';
+export const RESET_STEPS = 'RESET_STEPS';
